@@ -40,7 +40,7 @@ A basic rector config can look like
 declare(strict_types=1);
 
 use Netwerkstatt\SilverstripeRector\Rector\Injector\UseCreateRector;
-use Netwerkstatt\SilverstripeRector\Rector\Misc\AddConfigPropertiesRector
+use Netwerkstatt\SilverstripeRector\Rector\Misc\AddConfigPropertiesRector;
 use Netwerkstatt\SilverstripeRector\Set\SilverstripeSetList;
 use Netwerkstatt\SilverstripeRector\Set\SilverstripeLevelSetList;
 use Rector\CodeQuality\Rector\Class_\InlineConstructorDefaultToPropertyRector;
